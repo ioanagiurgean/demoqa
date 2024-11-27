@@ -1,7 +1,6 @@
 package Tests;
 
 import Pages.ButtonsPage;
-import Pages.WebTablesPage;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
