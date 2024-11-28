@@ -60,7 +60,7 @@ public class LinksPage extends PageBase{
         wait.until(ExpectedConditions.elementToBeClickable(createdLink));
         JavascriptExecutor executor = (JavascriptExecutor) driver;
         executor.executeScript("arguments[0].scrollIntoView(true);", createdLink);
-       wait.until(ExpectedConditions.alertIsPresent());
+        wait.until(ExpectedConditions.alertIsPresent());
         Alert alert = driver.switchTo().alert();
         System.out.println("API Response: " + alert.getText());
         alert.accept();
